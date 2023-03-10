@@ -14,7 +14,11 @@ We have to write the total minimum price value for the given products. Initially
 |---|---|---|
 | `3n`  | `2n`   | `n log n`  |
 
-## 📶 Feasible solution Logic
+### How we reached greedy optimal solution
+|  🚶 Feasible solution | 🚆 Greedy iteration1 solution  | ✈️ Greedy optimal solution |
+|---|---|---|
+| 3 N loops to arrive soluton  | 2 N loops to arrive soluton`   | 1.5n loops to arrive solution  |
+## 🚶 Feasible solution Logic
 Space Complexity: `3n`
 > left2right list ==> Start from left index and calculate price of each rating by comparing its adjacement element
 > right2left list ==> Start from right index and calculate price of each rating by comparing its adjacement element
@@ -22,7 +26,7 @@ Space Complexity: `3n`
 
 
 ## ✈️ Optimal solution Logic (Greedy Technique)
-Space Complexity: `3n
+Space Complexity: `3n`
 Two pointer approach and navigate list at each iteration from both sides
 > left2right list ==> Start from left index and calculate price of each rating by comparing its adjacement element
 > right2left list ==> Start from right index and calculate price of each rating by comparing its adjacement element
